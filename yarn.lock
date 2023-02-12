@@ -3054,9 +3054,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/core@npm:^2.35.0":
-  version: 2.35.3
-  resolution: "@sanity/core@npm:2.35.3"
+"@sanity/core@npm:^2.35.6":
+  version: 2.35.6
+  resolution: "@sanity/core@npm:2.35.6"
   dependencies:
     "@babel/plugin-proposal-class-properties": ^7.10.4
     "@babel/preset-env": ^7.11.5
@@ -3064,7 +3064,7 @@ __metadata:
     "@babel/preset-typescript": ^7.10.4
     "@babel/register": ^7.7.4
     "@sanity/eventsource": ^3.0.1
-    "@sanity/export": 2.33.2
+    "@sanity/export": 2.35.5
     "@sanity/generate-help-url": ^3.0.0
     "@sanity/import": 2.33.2
     "@sanity/plugin-loader": 2.35.3
@@ -3089,7 +3089,7 @@ __metadata:
     jsdom: ^12.0.0
     jsdom-global: ^3.0.2
     json-lexer: ^1.1.1
-    json5: ^1.0.1
+    json5: ^2.2.3
     lodash: ^4.17.15
     log-symbols: ^2.2.0
     oneline: ^1.0.3
@@ -3105,7 +3105,7 @@ __metadata:
     tar-fs: ^1.16.0
     terser: ^5.14.2
     yargs: ^16.2.0
-  checksum: 889fb0e7bcbef71e3db8bc3b01339db9993c07550a344c58141cad7b28c8a498a0074e50587e048d22f1b8db6cf310211ad489ddb46c5d7cd9ff50f817670c29
+  checksum: 765bee4a18048b9e38ff155cc095c1156eda934144f46eefe8546157a26d5b681f39660c3c2a3fe91d15a8fa71ec809dd49d3f84766ffc05e83b4875a8d01fcf
   languageName: node
   linkType: hard
 
@@ -3286,9 +3286,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/export@npm:2.33.2":
-  version: 2.33.2
-  resolution: "@sanity/export@npm:2.33.2"
+"@sanity/export@npm:2.35.5":
+  version: 2.35.5
+  resolution: "@sanity/export@npm:2.35.5"
   dependencies:
     archiver: ^5.0.0
     debug: ^3.2.7
@@ -3298,7 +3298,7 @@ __metadata:
     mississippi: ^4.0.0
     p-queue: ^2.3.0
     split2: ^3.2.2
-  checksum: 212c50ae3a0ab8db596740469a5607b5063f2e337c824646beb42d94325cef93659e0ac4fba969366e9156d93050460936dec0aa94486672b8f9b08f8bbf20d5
+  checksum: 87a1be5a6affd0751fa6a66bc408584a783cde329935c388b5586077d03453dcebd27588b6ce0fe43395ec02575f72e9a88a155b208e7d7ac1aa2a93d5e3bb3f
   languageName: node
   linkType: hard
 
@@ -15672,6 +15672,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"json5@npm:^2.2.3":
+  version: 2.2.3
+  resolution: "json5@npm:2.2.3"
+  bin:
+    json5: lib/cli.js
+  checksum: 2a7436a93393830bce797d4626275152e37e877b265e94ca69c99e3d20c2b9dab021279146a39cdb700e71b2dd32a4cebd1514cd57cee102b1af906ce5040349
+  languageName: node
+  linkType: hard
+
 "jsonfile@npm:^4.0.0":
   version: 4.0.0
   resolution: "jsonfile@npm:4.0.0"
@@ -21060,7 +21069,7 @@ __metadata:
   dependencies:
     "@sanity/base": ^2.35.2
     "@sanity/cli": ^2.35.0
-    "@sanity/core": ^2.35.0
+    "@sanity/core": ^2.35.6
     "@sanity/default-layout": ^2.35.2
     "@sanity/default-login": ^2.35.2
     "@sanity/desk-tool": ^2.35.2
