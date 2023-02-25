@@ -2558,10 +2558,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/font@npm:^13.1.0":
-  version: 13.1.0
-  resolution: "@next/font@npm:13.1.0"
-  checksum: 6a8d2952e7ba2f3a6b700c0747d326038a0b1719f2b2bd35a0ae8aa2811ad4b814aad1f83beaa63bdb0b283da0713d46b4952b93ed89ae11a78464b65232ac52
+"@next/font@npm:^13.2.1":
+  version: 13.2.1
+  resolution: "@next/font@npm:13.2.1"
+  checksum: 6231ca2d3fc887c0dd4e25ae8cebb090c477c6fc980b96b56f43b2ad6b989c9f588490ae680fc578b5584ae3b18a40d129c27b642afe9cfc4a953ea43145b1ee
   languageName: node
   linkType: hard
 
@@ -15725,7 +15725,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.20.7
     "@headlessui/react": ^1.7.7
-    "@next/font": ^13.1.0
+    "@next/font": ^13.2.1
     "@sanity/client": ^3.4.1
     "@sanity/vision": ^3.1.2
     "@storybook/addon-a11y": ^7.0.0-beta.17
