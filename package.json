@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.7",
-    "@next/font": "^13.1.0",
+    "@next/font": "^13.2.4",
     "@sanity/client": "^3.4.1",
     "@sanity/vision": "^3.1.2",
     "get-youtube-id": "^1.0.1",
