@@ -3592,9 +3592,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/vision@npm:^3.11.5":
-  version: 3.12.0
-  resolution: "@sanity/vision@npm:3.12.0"
+"@sanity/vision@npm:^3.12.1":
+  version: 3.12.1
+  resolution: "@sanity/vision@npm:3.12.1"
   dependencies:
     "@codemirror/autocomplete": ^6.1.0
     "@codemirror/commands": ^6.0.1
@@ -3617,7 +3617,7 @@ __metadata:
   peerDependencies:
     react: ^18
     styled-components: ^5.2
-  checksum: e55be34e22d77a1df15fe0d096287aa38db870990979f9b3e1db26d76713f72d9c0f3e598a2a6d5c3770a273be2616f4feccf300712fe1d8e3aaf78c1d754bc5
+  checksum: 33f7622cd4257729c684dfe8b7a2e62de3d5d66790a37c1481034468f709151357a374bfc639421de3b5b612f3d8bb5e776757185cdd75850bb1452e70622ba2
   languageName: node
   linkType: hard
 
@@ -12406,7 +12406,7 @@ __metadata:
     "@headlessui/react": ^1.7.7
     "@portabletext/react": ^3.0.0
     "@sanity/image-url": ^1.0.2
-    "@sanity/vision": ^3.11.5
+    "@sanity/vision": ^3.12.1
     "@storybook/addon-a11y": ^7.0.18
     "@storybook/addon-actions": ^7.0.18
     "@storybook/addon-essentials": ^7.0.18
