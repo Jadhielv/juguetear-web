@@ -3284,19 +3284,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/block-tools@npm:3.12.0":
-  version: 3.12.0
-  resolution: "@sanity/block-tools@npm:3.12.0"
+"@sanity/block-tools@npm:3.12.1":
+  version: 3.12.1
+  resolution: "@sanity/block-tools@npm:3.12.1"
   dependencies:
     get-random-values-esm: ^1.0.0
     lodash: ^4.17.21
-  checksum: e7c170ee44c323663110756034da8ad5ca972dc20636e18c4c21876edb60480a3f62efd553d8be3cecafb47839f63822b043a61212d0920639e6095b5e52ee25
+  checksum: 37832c7ab67f882f2a513d6398cbe3810d0c51b794cffbbdab5ea00a348c23a3c71230f1fbf116a3ae2153e71b238d8a23eb62dc4274272983728d6e98605112
   languageName: node
   linkType: hard
 
-"@sanity/cli@npm:3.12.0":
-  version: 3.12.0
-  resolution: "@sanity/cli@npm:3.12.0"
+"@sanity/cli@npm:3.12.1":
+  version: 3.12.1
+  resolution: "@sanity/cli@npm:3.12.1"
   dependencies:
     "@babel/traverse": ^7.19.0
     "@vercel/frameworks": 1.4.2
@@ -3309,7 +3309,7 @@ __metadata:
     pkg-dir: ^5.0.0
   bin:
     sanity: bin/sanity
-  checksum: 6a3f3f499bb00e4486931d1f57d44e2018be6ba15139bf82cfacede2b84d22c1fc9b92031af56e75daf02240e69c4b14ae1c7eb93d971a3b87c0b86a411ac157
+  checksum: 6c5af58a57e8bfc27c20fd316b97e936f36e52d765cded788df42b4e534d829ffa5acd4408901dffa0af5ce9cec398e96c4d4b29ede2d3c8acd39c87b602e06f
   languageName: node
   linkType: hard
 
@@ -3331,12 +3331,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/diff@npm:3.12.0":
-  version: 3.12.0
-  resolution: "@sanity/diff@npm:3.12.0"
+"@sanity/diff@npm:3.12.1":
+  version: 3.12.1
+  resolution: "@sanity/diff@npm:3.12.1"
   dependencies:
     diff-match-patch: ^1.0.4
-  checksum: 6e476c2c5abd50482638e4a8a322a1a2995a3e7a7c370d961d8ae24925b10064da10ef8eb958c9aa3775732c3865e169aa98a5a1a3ff7e9b4aec040a038b3b5b
+  checksum: c3dc614e5f608316c92be3d2fe10ecf636666e4d783d87a3552954e5e41ccd435a84a257847546487abf632d04aeb71a6195afc669cff0f03de2233d897c1c05
   languageName: node
   linkType: hard
 
@@ -3352,9 +3352,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/export@npm:3.12.0":
-  version: 3.12.0
-  resolution: "@sanity/export@npm:3.12.0"
+"@sanity/export@npm:3.12.1":
+  version: 3.12.1
+  resolution: "@sanity/export@npm:3.12.1"
   dependencies:
     archiver: ^5.0.0
     debug: ^3.2.7
@@ -3364,7 +3364,7 @@ __metadata:
     p-queue: ^2.3.0
     rimraf: ^3.0.2
     split2: ^3.2.2
-  checksum: d7edece1ecd1972d1473d7b0a56681a7dc9618c6e903585c34e1a4dd3d8645d56be8a138705b32a3eaa9300a0c887da4c5995838a1c1e33ae6b9c7ce27e8f448
+  checksum: 2da7aa06fb80d8627f59bec0cf25366aa0f105718906e3b5d745a037bab924bef63eb425f8cfe7ffbe97726d8f8ca8a8ffa2bc421aa8664959d9e280929ebf66
   languageName: node
   linkType: hard
 
@@ -3408,13 +3408,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/import@npm:3.12.0":
-  version: 3.12.0
-  resolution: "@sanity/import@npm:3.12.0"
+"@sanity/import@npm:3.12.1":
+  version: 3.12.1
+  resolution: "@sanity/import@npm:3.12.1"
   dependencies:
     "@sanity/asset-utils": ^1.2.5
     "@sanity/generate-help-url": ^3.0.0
-    "@sanity/mutator": 3.12.0
+    "@sanity/mutator": 3.12.1
     "@sanity/uuid": ^3.0.1
     debug: ^3.2.7
     file-url: ^2.0.2
@@ -3430,7 +3430,7 @@ __metadata:
     rimraf: ^3.0.2
     split2: ^3.2.2
     tar-fs: ^2.1.1
-  checksum: f4739122ee53d7b044fc4b0d3bd3cbdd9a6c769890f62d1f62a90867c828def438ec26222bd48a45321deb5bc9659394d2e076fa87fd5d25889312f427f0c1fc
+  checksum: 573ad2bd4e52c6b5a1026f9f76975487aff1c4ae1a2a28adbb93a256977fd38283e8aec610defa7d66ef180f926ea512d2b9cdc048e30a3bc3ea10d2b5acfe5c
   languageName: node
   linkType: hard
 
@@ -3444,28 +3444,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/mutator@npm:3.12.0":
-  version: 3.12.0
-  resolution: "@sanity/mutator@npm:3.12.0"
+"@sanity/mutator@npm:3.12.1":
+  version: 3.12.1
+  resolution: "@sanity/mutator@npm:3.12.1"
   dependencies:
     "@sanity/uuid": ^3.0.1
     "@types/diff-match-patch": ^1.0.32
     debug: ^3.2.7
     diff-match-patch: ^1.0.4
     lodash: ^4.17.21
-  checksum: 4e0e89c47d6258ac3bd732c64429253b9cda95076c1ae8177d44bdd7e417e312c3a1e9939a1d04b3f2073877e749ad75f01939468092634a15c5d3fb516ee1ec
+  checksum: f51b3c05713e81da44cf2dbd567a3465a677daa3617ee513be1067253df2fbc26e1f13e9488998a4dae80d9107d8295cd14e04b16ba66b22721c4b96360d74fa
   languageName: node
   linkType: hard
 
-"@sanity/portable-text-editor@npm:3.12.0":
-  version: 3.12.0
-  resolution: "@sanity/portable-text-editor@npm:3.12.0"
+"@sanity/portable-text-editor@npm:3.12.1":
+  version: 3.12.1
+  resolution: "@sanity/portable-text-editor@npm:3.12.1"
   dependencies:
-    "@sanity/block-tools": 3.12.0
-    "@sanity/schema": 3.12.0
+    "@sanity/block-tools": 3.12.1
+    "@sanity/schema": 3.12.1
     "@sanity/slate-react": 2.30.1
-    "@sanity/types": 3.12.0
-    "@sanity/util": 3.12.0
+    "@sanity/types": 3.12.1
+    "@sanity/util": 3.12.1
     debug: ^3.2.7
     is-hotkey: ^0.1.6
     lodash: ^4.17.21
@@ -3474,7 +3474,7 @@ __metadata:
     react: ^16.9 || ^17 || ^18
     rxjs: ^7
     styled-components: ^5.2
-  checksum: c36be2e9503eef3409ac6b6e0fbaa25da6eb238f0505c15fa61bead9b57956ce5ae8a392810fef9915d07821d137473e969292d5847b229db4f28c2b029d992d
+  checksum: 7052d026a93ac26e734ee1e2362fda73b525ef15245ef0c522ffa910380e9ccd4eab07e8d94e1667096eef0b9ac96ac50efa4c0a074ff28c73f462c967cbd9e9
   languageName: node
   linkType: hard
 
@@ -3495,18 +3495,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/schema@npm:3.12.0":
-  version: 3.12.0
-  resolution: "@sanity/schema@npm:3.12.0"
+"@sanity/schema@npm:3.12.1":
+  version: 3.12.1
+  resolution: "@sanity/schema@npm:3.12.1"
   dependencies:
     "@sanity/generate-help-url": ^3.0.0
-    "@sanity/types": 3.12.0
+    "@sanity/types": 3.12.1
     arrify: ^1.0.1
     humanize-list: ^1.0.1
     leven: ^3.1.0
     lodash: ^4.17.21
     object-inspect: ^1.6.0
-  checksum: 3fedd12e12bce9bc3fb90eed5a109fecf625ea05e957b321d22621f33125b4a731bfdbda8a7258114bb3d9fddd11d5d9741084fe74ac79c0f8163d3437117471
+  checksum: fafee4befb5587ee8cf2ecc8212d0c61e1bb71cadc14136fb02da79bd4d24c80d9132a4dae7c0e01678b71e9f715586d2b952359ed74dbb1e20b6859fe2ce7f9
   languageName: node
   linkType: hard
 
@@ -3530,13 +3530,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/types@npm:3, @sanity/types@npm:3.12.0":
+"@sanity/types@npm:3":
   version: 3.12.0
   resolution: "@sanity/types@npm:3.12.0"
   dependencies:
     "@sanity/client": ^6.1.1
     "@types/react": ^18.0.25
   checksum: 274d5cccfa08e5bbf9b33118687bebfe6c4e98421d8c676674e59d3e6fc91e71475bcceb8febe2e8022038e568806b4529e56c905e3652177d12c31dcade51fe
+  languageName: node
+  linkType: hard
+
+"@sanity/types@npm:3.12.1":
+  version: 3.12.1
+  resolution: "@sanity/types@npm:3.12.1"
+  dependencies:
+    "@sanity/client": ^6.1.1
+    "@types/react": ^18.0.25
+  checksum: 92b67d8a53acd385acacc79fbe4637e245d5eaa8bcf1e4d42b8d56521170e216c6ec3dcf74d9bea5938aeed8d949221150fe9d14106e619ebef31e7ad8deaacb
   languageName: node
   linkType: hard
 
@@ -3559,14 +3569,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/util@npm:3.12.0":
-  version: 3.12.0
-  resolution: "@sanity/util@npm:3.12.0"
+"@sanity/util@npm:3.12.1":
+  version: 3.12.1
+  resolution: "@sanity/util@npm:3.12.1"
   dependencies:
-    "@sanity/types": 3.12.0
+    "@sanity/types": 3.12.1
     get-random-values-esm: ^1.0.0
     moment: ^2.29.4
-  checksum: 724c48ac17c8d116b2a425096a54dd6c56f1262259dbf9f97a7d23675667a96eea6a95120d500c444156cf92f877b68fef3ecf3f46fc88fba386ffdc22913a7b
+  checksum: 91fda65a764de1f527f52106113125263417bc4a37227b259a2e3157bd76f0f81ccb10d35ef677da0768409875b579178c636fd511c5f1afbcdda3631a4e54fa
   languageName: node
   linkType: hard
 
@@ -3580,15 +3590,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/validation@npm:3.12.0":
-  version: 3.12.0
-  resolution: "@sanity/validation@npm:3.12.0"
+"@sanity/validation@npm:3.12.1":
+  version: 3.12.1
+  resolution: "@sanity/validation@npm:3.12.1"
   dependencies:
-    "@sanity/types": 3.12.0
+    "@sanity/types": 3.12.1
     date-fns: ^2.26.1
     lodash: ^4.17.21
     rxjs: ^7.8.0
-  checksum: ef0151a89917a432201044b640d568125bc0e4ceb16e9117c93c4441ec0f809f73b785be1e6552d5f3f4c1cf76dae906b48225378e2bdc194d6d3df6876ba7c4
+  checksum: ba66cf5eba7fcfe84fed857a3edf0f5246572f03930082379fbdb82f18f8d2227e75c34ce26717bf41387c1a939b9ba16719de6d3696722a613fac5b73c29236
   languageName: node
   linkType: hard
 
@@ -12447,7 +12457,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     rimraf: ^4.1.2
-    sanity: ^3.11.5
+    sanity: ^3.12.1
     storybook: ^7.0.18
     styled-components: ^5.3.9
     swiper: ^9.1.1
@@ -15732,9 +15742,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sanity@npm:^3.11.5":
-  version: 3.12.0
-  resolution: "sanity@npm:3.12.0"
+"sanity@npm:^3.12.1":
+  version: 3.12.1
+  resolution: "sanity@npm:3.12.1"
   dependencies:
     "@dnd-kit/core": ^6.0.5
     "@dnd-kit/modifiers": ^6.0.0
@@ -15746,26 +15756,26 @@ __metadata:
     "@rexxars/react-json-inspector": ^8.0.1
     "@sanity/asset-utils": ^1.2.5
     "@sanity/bifur-client": ^0.3.1
-    "@sanity/block-tools": 3.12.0
-    "@sanity/cli": 3.12.0
+    "@sanity/block-tools": 3.12.1
+    "@sanity/cli": 3.12.1
     "@sanity/client": ^6.1.1
     "@sanity/color": ^2.1.20
-    "@sanity/diff": 3.12.0
+    "@sanity/diff": 3.12.1
     "@sanity/eventsource": ^5.0.0
-    "@sanity/export": 3.12.0
+    "@sanity/export": 3.12.1
     "@sanity/generate-help-url": ^3.0.0
     "@sanity/icons": ^2.3.0
     "@sanity/image-url": ^1.0.2
-    "@sanity/import": 3.12.0
+    "@sanity/import": 3.12.1
     "@sanity/logos": ^2.0.2
-    "@sanity/mutator": 3.12.0
-    "@sanity/portable-text-editor": 3.12.0
-    "@sanity/schema": 3.12.0
-    "@sanity/types": 3.12.0
+    "@sanity/mutator": 3.12.1
+    "@sanity/portable-text-editor": 3.12.1
+    "@sanity/schema": 3.12.1
+    "@sanity/types": 3.12.1
     "@sanity/ui": ^1.3.3
-    "@sanity/util": 3.12.0
+    "@sanity/util": 3.12.1
     "@sanity/uuid": ^3.0.1
-    "@sanity/validation": 3.12.0
+    "@sanity/validation": 3.12.1
     "@tanstack/react-virtual": 3.0.0-beta.54
     "@types/is-hotkey": ^0.1.7
     "@types/react-copy-to-clipboard": ^5.0.2
@@ -15846,7 +15856,7 @@ __metadata:
     styled-components: ^5.2
   bin:
     sanity: bin/sanity
-  checksum: 07bfef5be2056daddd553a505925d46cf3317df2807df1b42a657fbfbc4ad11f6b61c7584bbb68ff2caba7ca93c738e8bde1452f1bafb096e665a7f83301f8fa
+  checksum: 76fff3c3505784227bc02170c32e21f618426da8702aa316c5506badd12142d3c05efdf296b18271db0f8fdfad0b7cec6d8e9a4b08a4f543a614dec547c67508
   languageName: node
   linkType: hard
 
