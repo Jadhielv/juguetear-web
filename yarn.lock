@@ -3487,9 +3487,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/preview-kit@npm:2.3.0":
-  version: 2.3.0
-  resolution: "@sanity/preview-kit@npm:2.3.0"
+"@sanity/preview-kit@npm:2.3.1":
+  version: 2.3.1
+  resolution: "@sanity/preview-kit@npm:2.3.1"
   dependencies:
     "@sanity/eventsource": ^5.0.0
     "@sanity/groq-store": 2.3.0
@@ -3507,7 +3507,7 @@ __metadata:
   peerDependenciesMeta:
     react:
       optional: true
-  checksum: d9bfb1d957ecf3da486d434b63aca696b20fa7fb891fd15315ff75a0c0b6510e6ccecf372ff26b74baaf9e3325a9d8176bdf2bf26a569f5ae05f1b483836d877
+  checksum: 4f92cafd2a8f222c11e8f11a534943119d9ac17fef5dc92937dcad173535302a5b501f277e427637cd1707a10b4af8218b61e376100e4bb94566a57035214996
   languageName: node
   linkType: hard
 
@@ -12584,7 +12584,7 @@ __metadata:
     jest-environment-jsdom: ^29.5.0
     lint-staged: ^13.2.3
     next: ^13.4.7
-    next-sanity: ^5.1.0
+    next-sanity: ^5.1.1
     postcss: ^8.4.24
     prettier: ^2.8.8
     prettier-plugin-tailwindcss: ^0.3.0
@@ -13517,11 +13517,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-sanity@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "next-sanity@npm:5.1.0"
+"next-sanity@npm:^5.1.1":
+  version: 5.1.1
+  resolution: "next-sanity@npm:5.1.1"
   dependencies:
-    "@sanity/preview-kit": 2.3.0
+    "@sanity/preview-kit": 2.3.1
     "@sanity/webhook": 2.0.0
     groq: ^3.0.0
   peerDependencies:
@@ -13534,7 +13534,7 @@ __metadata:
     react: ^18.0.0
     sanity: ^3.0.0
     styled-components: ^5.2.0
-  checksum: 8aa9bdb93a1a960088579687b93ed63e4ef7c6c8aac4e87ed87fe42ff83cfb4823fdda639e48853ed4a9fd1774b2cf402955f4d2218cba6240f201fd9df32f44
+  checksum: 42fc14e4a12122fde077a2eb6adc431e3e9df06e9760f91adac6ed33c02f80508fa8a0e2054f8beb761884e52f2e35129fd237fcdce35a7e538f059e3d684600
   languageName: node
   linkType: hard
 
