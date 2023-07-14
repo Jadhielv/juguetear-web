@@ -3487,13 +3487,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/preview-kit@npm:2.3.0":
-  version: 2.3.0
-  resolution: "@sanity/preview-kit@npm:2.3.0"
+"@sanity/preview-kit@npm:2.3.3":
+  version: 2.3.3
+  resolution: "@sanity/preview-kit@npm:2.3.3"
   dependencies:
     "@sanity/eventsource": ^5.0.0
     "@sanity/groq-store": 2.3.0
-    "@vercel/stega": 0.0.5
+    "@vercel/stega": 0.1.0
     lodash.get: 4.4.2
     lodash.isplainobject: 4.0.6
     lru-cache: 10.0.0
@@ -3507,7 +3507,7 @@ __metadata:
   peerDependenciesMeta:
     react:
       optional: true
-  checksum: d9bfb1d957ecf3da486d434b63aca696b20fa7fb891fd15315ff75a0c0b6510e6ccecf372ff26b74baaf9e3325a9d8176bdf2bf26a569f5ae05f1b483836d877
+  checksum: 8ea53c2103ade128391e765a0fff1c2262f4b6181a5c8c834771f5c584b6d5caeda8bc45fd61a2cc0b10868d202fd67e5e81f317ea08dae284e787d320e87f50
   languageName: node
   linkType: hard
 
@@ -5927,10 +5927,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/stega@npm:0.0.5":
-  version: 0.0.5
-  resolution: "@vercel/stega@npm:0.0.5"
-  checksum: acf9a13333b74350630416641895aecf593fcc9ca5e0b12f3a7daf7031d2eb2a4670a499f7d6e013c0559d792582463914c33d39efb9a959c9bc1706a0a995fe
+"@vercel/stega@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@vercel/stega@npm:0.1.0"
+  checksum: 3752c444f222b069bcae7180e7c6d6f7a9da85ccc32173e6eadcc7d9a1f66f1f42215bd2ba12e8f133643a19932fd3d0dfd989cd31c42420c2342fed1a1cc1c5
   languageName: node
   linkType: hard
 
@@ -12584,7 +12584,7 @@ __metadata:
     jest-environment-jsdom: ^29.5.0
     lint-staged: ^13.2.3
     next: ^13.4.7
-    next-sanity: ^5.1.0
+    next-sanity: ^5.1.2
     postcss: ^8.4.24
     prettier: ^2.8.8
     prettier-plugin-tailwindcss: ^0.3.0
@@ -13517,11 +13517,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-sanity@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "next-sanity@npm:5.1.0"
+"next-sanity@npm:^5.1.2":
+  version: 5.1.2
+  resolution: "next-sanity@npm:5.1.2"
   dependencies:
-    "@sanity/preview-kit": 2.3.0
+    "@sanity/preview-kit": 2.3.3
     "@sanity/webhook": 2.0.0
     groq: ^3.0.0
   peerDependencies:
@@ -13534,7 +13534,7 @@ __metadata:
     react: ^18.0.0
     sanity: ^3.0.0
     styled-components: ^5.2.0
-  checksum: 8aa9bdb93a1a960088579687b93ed63e4ef7c6c8aac4e87ed87fe42ff83cfb4823fdda639e48853ed4a9fd1774b2cf402955f4d2218cba6240f201fd9df32f44
+  checksum: d002387c760ed0bcd0bfc23e0d5a8b58c67dfa79b055d0b7701252377027054818603cec74f60a00cf7fe939f0bc3a4482323f848896e9211bf6c3daa517f8fc
   languageName: node
   linkType: hard
 
