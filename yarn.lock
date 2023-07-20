@@ -3585,6 +3585,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sanity/ui@npm:^1.7.2":
+  version: 1.7.3
+  resolution: "@sanity/ui@npm:1.7.3"
+  dependencies:
+    "@floating-ui/react-dom": 2.0.0
+    "@sanity/color": ^2.2.5
+    "@sanity/icons": ^2.3.1
+    csstype: ^3.1.2
+    framer-motion: ^10.12.16
+    react-refractor: ^2.1.7
+  peerDependencies:
+    react: ^18
+    react-dom: ^18
+    react-is: ^18
+    styled-components: ^5.2
+  checksum: 040a348145a29846ea1de1e391c4fa68e38bb2eb8857575e3346d1b368d845863f8fe8ee557e6b088693bfe2543a309a4e8761bc76f61a4b775b1a86eb956314
+  languageName: node
+  linkType: hard
+
 "@sanity/util@npm:3.13.0":
   version: 3.13.0
   resolution: "@sanity/util@npm:3.13.0"
@@ -3618,9 +3637,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/vision@npm:^3.13.0":
-  version: 3.13.0
-  resolution: "@sanity/vision@npm:3.13.0"
+"@sanity/vision@npm:^3.14.3":
+  version: 3.14.3
+  resolution: "@sanity/vision@npm:3.14.3"
   dependencies:
     "@codemirror/autocomplete": ^6.1.0
     "@codemirror/commands": ^6.0.1
@@ -3634,7 +3653,7 @@ __metadata:
     "@rexxars/react-split-pane": ^0.1.93
     "@sanity/color": ^2.1.20
     "@sanity/icons": ^2.4.0
-    "@sanity/ui": ^1.6.0
+    "@sanity/ui": ^1.7.2
     "@uiw/react-codemirror": ^4.11.4
     hashlru: ^2.3.0
     is-hotkey: ^0.1.6
@@ -3643,7 +3662,7 @@ __metadata:
   peerDependencies:
     react: ^18
     styled-components: ^5.2
-  checksum: f019210da0b3e497c6cf2878021e08da2a86b28ff97b10400272b11007db1e39d7dbc701335f5fe5d546daa6557f9d11b148daecd3958f123d46e58777c69c47
+  checksum: 97096cc1082fda2bbc2eaa5d5b92fb96e44c0fbbaba4f6c7e47a348ea65ded132f2f871729edd20312ca59665644abb92f4d406937d5451f3830a4c606e2e175
   languageName: node
   linkType: hard
 
@@ -12550,7 +12569,7 @@ __metadata:
     "@headlessui/react": ^1.7.15
     "@portabletext/react": ^3.0.4
     "@sanity/image-url": ^1.0.2
-    "@sanity/vision": ^3.13.0
+    "@sanity/vision": ^3.14.3
     "@storybook/addon-a11y": ^7.0.24
     "@storybook/addon-actions": ^7.0.24
     "@storybook/addon-essentials": ^7.0.24
