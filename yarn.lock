@@ -3345,6 +3345,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sanity/client@npm:^6.1.5":
+  version: 6.4.0
+  resolution: "@sanity/client@npm:6.4.0"
+  dependencies:
+    "@sanity/eventsource": ^5.0.0
+    get-it: ^8.3.0
+    rxjs: ^7.0.0
+  checksum: 9cc456d206d4d8de973f842319b57de91eaf7f193c4508a9b7dc53e4acbb9a0b4ac11ae920992f58492711a7495d5d54b9df95e53823517af33ca3c571e613fc
+  languageName: node
+  linkType: hard
+
 "@sanity/color@npm:^2.1.20, @sanity/color@npm:^2.2.5":
   version: 2.2.5
   resolution: "@sanity/color@npm:2.2.5"
@@ -3361,7 +3372,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/eventsource@npm:5, @sanity/eventsource@npm:^5.0.0":
+"@sanity/eventsource@npm:5.0.0, @sanity/eventsource@npm:^5.0.0":
   version: 5.0.0
   resolution: "@sanity/eventsource@npm:5.0.0"
   dependencies:
@@ -3396,20 +3407,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/groq-store@npm:2.3.0":
-  version: 2.3.0
-  resolution: "@sanity/groq-store@npm:2.3.0"
+"@sanity/groq-store@npm:4.0.2":
+  version: 4.0.2
+  resolution: "@sanity/groq-store@npm:4.0.2"
   dependencies:
-    "@sanity/eventsource": 5
-    "@sanity/types": 3
-    fast-deep-equal: ^3.1.3
-    groq: 3
-    groq-js: 1
-    mendoza: ^2.1.1
-    simple-get: ^4.0.1
-    split2: ^4.1.0
-    throttle-debounce: ^5.0.0
-  checksum: b96b3a0e29f6b97a947737b454c93dfc806733808b0d16e6b70988e94666f7fff2870ee547e65629727bb54304c6b60b2dbf72a38206b7176026cb64c7b6ab40
+    "@sanity/eventsource": ^5.0.0
+    "@sanity/types": ^3.14.5
+    fast-deep-equal: 3.1.3
+    groq: ^3.14.5
+    groq-js: 1.1.10
+    mendoza: 3.0.3
+    simple-get: 4.0.1
+    split2: 4.2.0
+    throttle-debounce: 5.0.0
+  checksum: 71a4ffc8bb1e0ef4a85c11d47cc0d17eba3af9c54f004e81c8fbef201a89a8300f5b27389fc25d4a8bd937fefcb3e1f58de5e450ecb7147e3e439ea69c2ab244
   languageName: node
   linkType: hard
 
@@ -3508,27 +3519,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/preview-kit@npm:2.3.0":
-  version: 2.3.0
-  resolution: "@sanity/preview-kit@npm:2.3.0"
+"@sanity/preview-kit@npm:2.4.7":
+  version: 2.4.7
+  resolution: "@sanity/preview-kit@npm:2.4.7"
   dependencies:
-    "@sanity/eventsource": ^5.0.0
-    "@sanity/groq-store": 2.3.0
-    "@vercel/stega": 0.0.5
+    "@sanity/eventsource": 5.0.0
+    "@sanity/groq-store": 4.0.2
+    "@vercel/stega": 0.1.0
     lodash.get: 4.4.2
     lodash.isplainobject: 4.0.6
     lru-cache: 10.0.0
-    mendoza: 2.1.1
+    mendoza: 3.0.3
     react-fast-compare: 3.2.2
-    tiny-invariant: 1.3.1
     use-sync-external-store: 1.2.0
   peerDependencies:
-    "@sanity/client": ^6.1.4
+    "@sanity/client": ^6.4.0
     react: ^18.0.0
   peerDependenciesMeta:
     react:
       optional: true
-  checksum: d9bfb1d957ecf3da486d434b63aca696b20fa7fb891fd15315ff75a0c0b6510e6ccecf372ff26b74baaf9e3325a9d8176bdf2bf26a569f5ae05f1b483836d877
+  checksum: 46d4938d777578aa2ce4cd80ac568eb5e9be35f6c379a14837d47142644dc2df6402d51751f3bce82898d264023bb343dc36126b41eb9a827eb23e4e7901beaa
   languageName: node
   linkType: hard
 
@@ -3567,16 +3577,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/types@npm:3":
-  version: 3.12.0
-  resolution: "@sanity/types@npm:3.12.0"
-  dependencies:
-    "@sanity/client": ^6.1.1
-    "@types/react": ^18.0.25
-  checksum: 274d5cccfa08e5bbf9b33118687bebfe6c4e98421d8c676674e59d3e6fc91e71475bcceb8febe2e8022038e568806b4529e56c905e3652177d12c31dcade51fe
-  languageName: node
-  linkType: hard
-
 "@sanity/types@npm:3.13.0":
   version: 3.13.0
   resolution: "@sanity/types@npm:3.13.0"
@@ -3584,6 +3584,16 @@ __metadata:
     "@sanity/client": ^6.1.1
     "@types/react": ^18.0.25
   checksum: 00898465b6d4ea64587fb9da66c6ae18f32baab23a71108aec62ba38e438066820fbcf4fa3ee1a3394739ff06c3580d28b6b5bb24c14509931270ff7b91e3b4c
+  languageName: node
+  linkType: hard
+
+"@sanity/types@npm:^3.14.5":
+  version: 3.14.5
+  resolution: "@sanity/types@npm:3.14.5"
+  dependencies:
+    "@sanity/client": ^6.1.5
+    "@types/react": ^18.0.25
+  checksum: 89a9862d3c8a2f566e300fd529ca3664d42c7ee780a17dae9f4495fbd01f019fe3a80affa233c115a16b286de4aa51bfba226f78603d5343d6c1e462185dc758
   languageName: node
   linkType: hard
 
@@ -5948,10 +5958,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/stega@npm:0.0.5":
-  version: 0.0.5
-  resolution: "@vercel/stega@npm:0.0.5"
-  checksum: acf9a13333b74350630416641895aecf593fcc9ca5e0b12f3a7daf7031d2eb2a4670a499f7d6e013c0559d792582463914c33d39efb9a959c9bc1706a0a995fe
+"@vercel/stega@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@vercel/stega@npm:0.1.0"
+  checksum: 3752c444f222b069bcae7180e7c6d6f7a9da85ccc32173e6eadcc7d9a1f66f1f42215bd2ba12e8f133643a19932fd3d0dfd989cd31c42420c2342fed1a1cc1c5
   languageName: node
   linkType: hard
 
@@ -9832,7 +9842,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-deep-equal@npm:^3.1.1, fast-deep-equal@npm:^3.1.3":
+"fast-deep-equal@npm:3.1.3, fast-deep-equal@npm:^3.1.1, fast-deep-equal@npm:^3.1.3":
   version: 3.1.3
   resolution: "fast-deep-equal@npm:3.1.3"
   checksum: e21a9d8d84f53493b6aa15efc9cfd53dd5b714a1f23f67fb5dc8f574af80df889b3bce25dc081887c6d25457cce704e636395333abad896ccdec03abaf1f3f9d
@@ -10398,6 +10408,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"get-it@npm:^8.3.0":
+  version: 8.3.2
+  resolution: "get-it@npm:8.3.2"
+  dependencies:
+    debug: ^4.3.4
+    decompress-response: ^7.0.0
+    follow-redirects: ^1.15.2
+    into-stream: ^6.0.0
+    is-plain-object: ^5.0.0
+    is-retry-allowed: ^2.2.0
+    is-stream: ^2.0.1
+    parse-headers: ^2.0.5
+    progress-stream: ^2.0.0
+    tunnel-agent: ^0.6.0
+  checksum: 15614874e8eabd30a4e934a0a2c02e42ff12dfe27f6eb4d32169736e3942e3dded29b9cefc2dd2e576381cd5c3ae1953cec060d137ff65b828fd7f7e5bcd0b62
+  languageName: node
+  linkType: hard
+
 "get-npm-tarball-url@npm:^2.0.3":
   version: 2.0.3
   resolution: "get-npm-tarball-url@npm:2.0.3"
@@ -10751,17 +10779,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"groq-js@npm:1, groq-js@npm:^1.0.0":
+"groq-js@npm:1.1.10":
+  version: 1.1.10
+  resolution: "groq-js@npm:1.1.10"
+  checksum: 028a13be90e7ac6df896871d80aa84b2d73c569c1882cab36acf77ebbac4d927d700955384fa77f6e694ce97df5e58cbba8cdb184ae042a1a5bceb3bb5f27fb3
+  languageName: node
+  linkType: hard
+
+"groq-js@npm:^1.0.0":
   version: 1.1.9
   resolution: "groq-js@npm:1.1.9"
   checksum: d12e47b5b762391b94ddb93d124c55f825288309f50ee5829b8853aa403f2685dabaa5a0b7c2fe96fbcae085b01ebac44a5ee864f25b80bea0ded1936b21b506
   languageName: node
   linkType: hard
 
-"groq@npm:3, groq@npm:^3.0.0":
+"groq@npm:^3.0.0":
   version: 3.12.0
   resolution: "groq@npm:3.12.0"
   checksum: 1cdf1457e422134e3300e3f169f237ea5becc173b3f8e4f10791328a0aa5e90af4dd24a301b78b629b260b114a83c93c95cf51f0155fe9cc3fbe883b2375dea9
+  languageName: node
+  linkType: hard
+
+"groq@npm:^3.14.5":
+  version: 3.14.5
+  resolution: "groq@npm:3.14.5"
+  checksum: a17a9d361a958d27312c28707d9edc901e10a0bbb88132618752d3ca455276347476d6363c8bf7536f8406707335720fcb9cb68b8157ac723941132d28a6ef21
   languageName: node
   linkType: hard
 
@@ -12631,7 +12673,7 @@ __metadata:
     jest-environment-jsdom: ^29.5.0
     lint-staged: ^13.2.3
     next: ^13.4.7
-    next-sanity: ^5.1.0
+    next-sanity: ^5.1.6
     postcss: ^8.4.24
     prettier: ^2.8.8
     prettier-plugin-tailwindcss: ^0.3.0
@@ -13141,7 +13183,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mendoza@npm:2.1.1, mendoza@npm:^2.1.1":
+"mendoza@npm:3.0.3":
+  version: 3.0.3
+  resolution: "mendoza@npm:3.0.3"
+  checksum: 8bee64b018b88ddaf6e268bc0f10a656054a55430c53f06625a525227c43d18962440c112a6625225bdb6b31e998094064b13e3381a5fa5395db65c10a30ecec
+  languageName: node
+  linkType: hard
+
+"mendoza@npm:^2.1.1":
   version: 2.1.1
   resolution: "mendoza@npm:2.1.1"
   checksum: 4e6aa69bd9854146809cdae6e88ef6032fa14e979f89e8efde2bf0125564fef670082b0a830de724fc9442d00f88cfcf693321492d2340baa3f155df1d443384
@@ -13550,11 +13599,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-sanity@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "next-sanity@npm:5.1.0"
+"next-sanity@npm:^5.1.6":
+  version: 5.1.6
+  resolution: "next-sanity@npm:5.1.6"
   dependencies:
-    "@sanity/preview-kit": 2.3.0
+    "@sanity/preview-kit": 2.4.7
     "@sanity/webhook": 2.0.0
     groq: ^3.0.0
   peerDependencies:
@@ -13567,7 +13616,7 @@ __metadata:
     react: ^18.0.0
     sanity: ^3.0.0
     styled-components: ^5.2.0
-  checksum: 8aa9bdb93a1a960088579687b93ed63e4ef7c6c8aac4e87ed87fe42ff83cfb4823fdda639e48853ed4a9fd1774b2cf402955f4d2218cba6240f201fd9df32f44
+  checksum: 12b9bc3cc72f2d52b5e5eb97ae701ad7c0cb94f55729da90b761a4e15154399ebba3838cb874aeb9519fce97a6f1fa4c2339758999994cd76181bbca2b3ae1f7
   languageName: node
   linkType: hard
 
@@ -16347,7 +16396,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-get@npm:^4.0.1":
+"simple-get@npm:4.0.1":
   version: 4.0.1
   resolution: "simple-get@npm:4.0.1"
   dependencies:
@@ -16562,19 +16611,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"split2@npm:4.2.0":
+  version: 4.2.0
+  resolution: "split2@npm:4.2.0"
+  checksum: 05d54102546549fe4d2455900699056580cca006c0275c334611420f854da30ac999230857a85fdd9914dc2109ae50f80fda43d2a445f2aa86eccdc1dfce779d
+  languageName: node
+  linkType: hard
+
 "split2@npm:^3.2.2":
   version: 3.2.2
   resolution: "split2@npm:3.2.2"
   dependencies:
     readable-stream: ^3.0.0
   checksum: 8127ddbedd0faf31f232c0e9192fede469913aa8982aa380752e0463b2e31c2359ef6962eb2d24c125bac59eeec76873678d723b1c7ff696216a1cd071e3994a
-  languageName: node
-  linkType: hard
-
-"split2@npm:^4.1.0":
-  version: 4.2.0
-  resolution: "split2@npm:4.2.0"
-  checksum: 05d54102546549fe4d2455900699056580cca006c0275c334611420f854da30ac999230857a85fdd9914dc2109ae50f80fda43d2a445f2aa86eccdc1dfce779d
   languageName: node
   linkType: hard
 
@@ -17202,7 +17251,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"throttle-debounce@npm:^5.0.0":
+"throttle-debounce@npm:5.0.0":
   version: 5.0.0
   resolution: "throttle-debounce@npm:5.0.0"
   checksum: aa8bf25828b4f8645ce863589de05d6807ea3debc147ce7d89624638ff8a16792d6d0baa0f8a32a260f0b163444d74020c6087b713ae561fde594b97b6e51f28
@@ -17249,13 +17298,6 @@ __metadata:
   version: 1.0.6
   resolution: "tiny-invariant@npm:1.0.6"
   checksum: c90b34beea3cb10c49531e754afb0999033a2d7edffef6602922de27678d8a96dcbc0e8f0a959bc272859281b0cd1305b711e25d5edfb1da5fc7135e2a992961
-  languageName: node
-  linkType: hard
-
-"tiny-invariant@npm:1.3.1":
-  version: 1.3.1
-  resolution: "tiny-invariant@npm:1.3.1"
-  checksum: 872dbd1ff20a21303a2fd20ce3a15602cfa7fcf9b228bd694a52e2938224313b5385a1078cb667ed7375d1612194feaca81c4ecbe93121ca1baebe344de4f84c
   languageName: node
   linkType: hard
 
