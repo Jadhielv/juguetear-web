@@ -15,7 +15,7 @@
     "node": ">=18.x"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.15",
+    "@headlessui/react": "^1.7.17",
     "@portabletext/react": "^3.0.4",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.13.0",
