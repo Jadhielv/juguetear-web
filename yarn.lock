@@ -3431,6 +3431,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sanity/icons@npm:^2.4.1, @sanity/icons@npm:^2.6.0":
+  version: 2.8.0
+  resolution: "@sanity/icons@npm:2.8.0"
+  peerDependencies:
+    react: ^18
+  checksum: 77761836b25d73afa7344e07ca242ebb6cf9a85c67522aab1c019d1a23abe8a99bc6ae4b4060f9b51b7dff126c7d7d96699f6c668b796399b7b53874a9756103
+  languageName: node
+  linkType: hard
+
 "@sanity/image-url@npm:^1.0.2":
   version: 1.0.2
   resolution: "@sanity/image-url@npm:1.0.2"
@@ -3606,6 +3615,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sanity/ui@npm:^1.9.3":
+  version: 1.9.3
+  resolution: "@sanity/ui@npm:1.9.3"
+  dependencies:
+    "@floating-ui/react-dom": 2.0.0
+    "@sanity/color": ^2.2.5
+    "@sanity/icons": ^2.4.1
+    csstype: ^3.1.2
+    framer-motion: ^10.16.2
+    react-refractor: ^2.1.7
+  peerDependencies:
+    react: ^18
+    react-dom: ^18
+    react-is: ^18
+    styled-components: ^5.2 || ^6
+  checksum: 34d5359dba49ae4440bb268d2a2a7119fa967dd0b2294226c34863a996d0711980e04ab2b2ee073ce4b294117181de5e417368fbc5d4511434bd52c325c2ea84
+  languageName: node
+  linkType: hard
+
 "@sanity/util@npm:3.13.0":
   version: 3.13.0
   resolution: "@sanity/util@npm:3.13.0"
@@ -3639,9 +3667,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/vision@npm:^3.13.0":
-  version: 3.13.0
-  resolution: "@sanity/vision@npm:3.13.0"
+"@sanity/vision@npm:^3.21.3":
+  version: 3.21.3
+  resolution: "@sanity/vision@npm:3.21.3"
   dependencies:
     "@codemirror/autocomplete": ^6.1.0
     "@codemirror/commands": ^6.0.1
@@ -3654,8 +3682,8 @@ __metadata:
     "@rexxars/react-json-inspector": ^8.0.1
     "@rexxars/react-split-pane": ^0.1.93
     "@sanity/color": ^2.1.20
-    "@sanity/icons": ^2.4.0
-    "@sanity/ui": ^1.6.0
+    "@sanity/icons": ^2.6.0
+    "@sanity/ui": ^1.9.3
     "@uiw/react-codemirror": ^4.11.4
     hashlru: ^2.3.0
     is-hotkey: ^0.1.6
@@ -3663,8 +3691,8 @@ __metadata:
     lodash: ^4.17.21
   peerDependencies:
     react: ^18
-    styled-components: ^5.2
-  checksum: f019210da0b3e497c6cf2878021e08da2a86b28ff97b10400272b11007db1e39d7dbc701335f5fe5d546daa6557f9d11b148daecd3958f123d46e58777c69c47
+    styled-components: ^5.2 || ^6
+  checksum: 5391911d165874c3e0944cac2559a30f901180e2f89e08a491119b0a4452abe31350773015a5f4b56b36942d94ae7901f27cb8435621ebc7bdeec608fcd1542e
   languageName: node
   linkType: hard
 
@@ -10197,6 +10225,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"framer-motion@npm:^10.16.2":
+  version: 10.16.16
+  resolution: "framer-motion@npm:10.16.16"
+  dependencies:
+    "@emotion/is-prop-valid": ^0.8.2
+    tslib: ^2.4.0
+  peerDependencies:
+    react: ^18.0.0
+    react-dom: ^18.0.0
+  dependenciesMeta:
+    "@emotion/is-prop-valid":
+      optional: true
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 992d755faab7171aecd4b548ea4c3baf6a9172b9348a98033e594a46a9f3f90c6f5854898d48884c3ecf7db4fc2ae3f05e27e125b4c5b397e836d765265577c1
+  languageName: node
+  linkType: hard
+
 "fresh@npm:0.5.2":
   version: 0.5.2
   resolution: "fresh@npm:0.5.2"
@@ -12597,7 +12646,7 @@ __metadata:
     "@headlessui/react": ^1.7.15
     "@portabletext/react": ^3.0.4
     "@sanity/image-url": ^1.0.2
-    "@sanity/vision": ^3.13.0
+    "@sanity/vision": ^3.21.3
     "@storybook/addon-a11y": ^7.0.24
     "@storybook/addon-actions": ^7.0.24
     "@storybook/addon-essentials": ^7.0.24
