@@ -2567,15 +2567,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/react@npm:^1.7.15":
-  version: 1.7.15
-  resolution: "@headlessui/react@npm:1.7.15"
+"@headlessui/react@npm:^1.7.18":
+  version: 1.7.18
+  resolution: "@headlessui/react@npm:1.7.18"
   dependencies:
+    "@tanstack/react-virtual": ^3.0.0-beta.60
     client-only: ^0.0.1
   peerDependencies:
     react: ^16 || ^17 || ^18
     react-dom: ^16 || ^17 || ^18
-  checksum: f2d11d58499ddf1362a40d84d92b7db932adaccc3596f44f1eead642258280f124497f2b329cee6e04801818bb2e66c42d752ee05f40f8b5239c2f692128e568
+  checksum: 7463167b4cf2ad57f92c2deedd6429a245dfc4d979ead5533d2e83429e3e4dd39c346e5a8fd958e6bd9e2fba42486af97577b7dd3137f5a797dacc93632578ba
   languageName: node
   linkType: hard
 
@@ -4965,6 +4966,25 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: ddeb3cb46db89365609d5bc402b8a8d410dc7e5f38ee579f39e5589c62a2123799ba36586939a5a6ad1a701650a5b169f657fd24687687bf08f4827b0099bc75
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-virtual@npm:^3.0.0-beta.60":
+  version: 3.0.1
+  resolution: "@tanstack/react-virtual@npm:3.0.1"
+  dependencies:
+    "@tanstack/virtual-core": 3.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 11534a23100de14a7e0a95da667381181e60a24e29a71246aeed174f8d5f6e176216de6639e6e1f403722ae30d8b92b21ed75ea131529b1417fb81f433468ef0
+  languageName: node
+  linkType: hard
+
+"@tanstack/virtual-core@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@tanstack/virtual-core@npm:3.0.0"
+  checksum: 7283d50fc7b7a56608c37a8e94a93b85890ff7e39c6281633a19c4d6f6f4fbf25f8418f1eec302a008a8746a0d1d0cd00630137b55e6cf019818d68af8ed16b6
   languageName: node
   linkType: hard
 
@@ -12594,7 +12614,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "juguetear-web@workspace:."
   dependencies:
-    "@headlessui/react": ^1.7.15
+    "@headlessui/react": ^1.7.18
     "@portabletext/react": ^3.0.4
     "@sanity/image-url": ^1.0.2
     "@sanity/vision": ^3.13.0
