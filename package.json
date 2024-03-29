@@ -18,7 +18,7 @@
     "@headlessui/react": "^1.7.15",
     "@portabletext/react": "^3.0.4",
     "@sanity/image-url": "^1.0.2",
-    "@sanity/vision": "^3.13.0",
+    "@sanity/vision": "^3.36.1",
     "get-youtube-id": "^1.0.1",
     "next": "^13.4.7",
     "next-sanity": "^5.1.0",
