@@ -2693,15 +2693,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/react@npm:^1.7.17":
-  version: 1.7.17
-  resolution: "@headlessui/react@npm:1.7.17"
+"@headlessui/react@npm:^1.7.19":
+  version: 1.7.19
+  resolution: "@headlessui/react@npm:1.7.19"
   dependencies:
+    "@tanstack/react-virtual": ^3.0.0-beta.60
     client-only: ^0.0.1
   peerDependencies:
     react: ^16 || ^17 || ^18
     react-dom: ^16 || ^17 || ^18
-  checksum: 0cdb67747e7f606f78214dac0b48573247779e70534b4471515c094b74addda173dc6a9847d33aea9c6e6bc151016c034125328953077e32aa7947ebabed91f7
+  checksum: 2a343a5fcf1f45e870cc94613231b89a8da78114001ffafa4751a0eceae7569ff9237aff1f2aedfa6f6e53ee3bb9ba5e5d19ebf1878fee3ff4f3c733fddc1087
   languageName: node
   linkType: hard
 
@@ -5743,10 +5744,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/react-virtual@npm:^3.0.0-beta.60":
+  version: 3.5.0
+  resolution: "@tanstack/react-virtual@npm:3.5.0"
+  dependencies:
+    "@tanstack/virtual-core": 3.5.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: ecb1424b9961ada3c7516b8f05a1bb37fb1b75cb88035e06530a9365e4e565e701b5de9668c17f727bbcb3be1bbe6482f7bd37af9e0b144846e5a67fc9dfd57d
+  languageName: node
+  linkType: hard
+
 "@tanstack/virtual-core@npm:3.0.0-beta.54":
   version: 3.0.0-beta.54
   resolution: "@tanstack/virtual-core@npm:3.0.0-beta.54"
   checksum: a58cb30e1bbf8a0420caea8693df11c909c1190908163fef75aeddfa11bba621ca993ab218f4e7537c05c1651f9398e61016f3e3d374093c87029b52c868f0e7
+  languageName: node
+  linkType: hard
+
+"@tanstack/virtual-core@npm:3.5.0":
+  version: 3.5.0
+  resolution: "@tanstack/virtual-core@npm:3.5.0"
+  checksum: e2eec72a6d7334625e9201f24a3e045c9c39f1fffda667d8a8a8b3906cdf22a2ab2605698dcffe6cf4438c6cc5934f43a04fae089221d3dd91a0d9fd925a8551
   languageName: node
   linkType: hard
 
@@ -13970,7 +13990,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "juguetear-web@workspace:."
   dependencies:
-    "@headlessui/react": ^1.7.17
+    "@headlessui/react": ^1.7.19
     "@portabletext/react": ^3.0.11
     "@sanity/image-url": ^1.0.2
     "@sanity/vision": ^3.20.1
