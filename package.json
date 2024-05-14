@@ -29,14 +29,14 @@
     "swiper": "^11.0.5"
   },
   "devDependencies": {
-    "@storybook/addon-a11y": "^7.5.3",
+    "@storybook/addon-a11y": "^7.6.17",
     "@storybook/addon-actions": "^7.5.3",
-    "@storybook/addon-essentials": "^7.5.3",
-    "@storybook/addon-interactions": "^7.5.3",
-    "@storybook/addon-links": "^7.5.3",
+    "@storybook/addon-essentials": "^7.6.17",
+    "@storybook/addon-interactions": "^7.6.17",
+    "@storybook/addon-links": "^7.6.17",
     "@storybook/blocks": "^7.5.3",
     "@storybook/jest": "^0.2.3",
-    "@storybook/nextjs": "^7.5.3",
+    "@storybook/nextjs": "^7.6.17",
     "@storybook/react": "^7.5.3",
     "@storybook/testing-library": "^0.2.2",
     "@testing-library/jest-dom": "^6.1.4",
@@ -64,7 +64,7 @@
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
     "rimraf": "^5.0.5",
-    "storybook": "^7.5.3",
+    "storybook": "^7.6.17",
     "tailwindcss": "^3.3.5",
     "tsc-files": "^1.1.4",
     "typescript": "^5.3.2"
