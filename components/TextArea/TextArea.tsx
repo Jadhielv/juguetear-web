@@ -35,11 +35,11 @@ const TextArea = ({
    disabled:ring-gray-dark disabled:bg-gray-light ${
      error ? "ring-2 ring-red font-bold" : "ring-blue"
    } `;
-  const svgStyles = `absolute right-5 top-11 ${error ? "block" : "hidden"}`;
+  const svgStyles = `absolute right-6 top-14 ${error ? "block" : "hidden"}`;
 
   return (
     <div className="group space-y-1 font-inter text-base">
-      <label htmlFor={id} className="relative">
+      <label htmlFor={id} className="block">
         <span className={spanStyles}>
           {required ? "*" : ""}
           {label}
