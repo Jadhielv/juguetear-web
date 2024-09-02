@@ -14017,7 +14017,7 @@ __metadata:
     sanity: ^3.20.1
     storybook: ^7.5.3
     styled-components: ^6.1.1
-    swiper: ^11.0.5
+    swiper: ^11.1.12
     tailwindcss: ^3.3.5
     tsc-files: ^1.1.4
     typescript: ^5.3.2
@@ -18583,10 +18583,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swiper@npm:^11.0.5":
-  version: 11.0.5
-  resolution: "swiper@npm:11.0.5"
-  checksum: 83b125d16733a66ed5f58627c81263116e39eea5cead92667d2e24692ff94632de9aa05fec1ed80dc352779c0d7525e9a18424fce1c39c5e970823414b212edb
+"swiper@npm:^11.1.12":
+  version: 11.1.12
+  resolution: "swiper@npm:11.1.12"
+  checksum: c202d7952093e69d59eef0df46cae280f590f7090b20aa9a0babf2b9f705a25a291e46859c169d2c088f98d44b34b72cd33d6a2aa61eb1449e6f9e91052bbe46
   languageName: node
   linkType: hard
 
