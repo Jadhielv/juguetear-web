@@ -3410,15 +3410,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@portabletext/react@npm:^3.0.11":
-  version: 3.0.11
-  resolution: "@portabletext/react@npm:3.0.11"
+"@portabletext/react@npm:^3.2.4":
+  version: 3.2.4
+  resolution: "@portabletext/react@npm:3.2.4"
   dependencies:
-    "@portabletext/toolkit": ^2.0.10
-    "@portabletext/types": ^2.0.8
+    "@portabletext/toolkit": ^2.0.18
+    "@portabletext/types": ^2.0.15
   peerDependencies:
-    react: ^17 || ^18
-  checksum: d63116bc73b6ea9f68e87d23fcd05400c16e36443b6251ac9a62821eaed3d4107f815318695eec527b27ca3213282e2c7b83a2a15e4383f52eadb5ff6a9e4dbe
+    react: ^17 || ^18 || >=19.0.0-0
+  checksum: c4de5787688b77979a348e8dafb1e931db188fcdb183a2135eacd6b593c5ff7ad635c01af33609049384f288b969b1739e9a7f3377028ac96cd22d5729d933ad
   languageName: node
   linkType: hard
 
@@ -3431,12 +3431,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@portabletext/toolkit@npm:^2.0.10":
-  version: 2.0.10
-  resolution: "@portabletext/toolkit@npm:2.0.10"
+"@portabletext/toolkit@npm:^2.0.18":
+  version: 2.0.18
+  resolution: "@portabletext/toolkit@npm:2.0.18"
   dependencies:
-    "@portabletext/types": ^2.0.8
-  checksum: b0318f534bfac9d1e375ecd3699596b5cf7c9fb53d50425a0393150a5062f256730e4e8378adbdae6c141f3f2896344b6d61804625978736edf63c186439e687
+    "@portabletext/types": ^2.0.13
+  checksum: 2d598e683c530c962407a49dd284dd0e754eee8e8787fb8d6885bb38069cea437b152dcd76ef4457c0fd84629d206870f8672003e3cb007cef7ba6b2ed6236c7
   languageName: node
   linkType: hard
 
@@ -3447,10 +3447,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@portabletext/types@npm:^2.0.8":
-  version: 2.0.8
-  resolution: "@portabletext/types@npm:2.0.8"
-  checksum: 95c7e65e77fa6c91d00b85c36f777494aea65604b85e99be4ee17141c92cb0a9a472aa7909841c65736a1e87659787af3f9558e5e151340782b7eb68d0f66b5f
+"@portabletext/types@npm:^2.0.13, @portabletext/types@npm:^2.0.15":
+  version: 2.0.15
+  resolution: "@portabletext/types@npm:2.0.15"
+  checksum: 9441e705edb4ef073c0f1229ca53547b03169446df4079485a92721b4c110fc1dafe7a264608117443a3c41752ad737815b18700932ad6d99b8042ebfce59442
   languageName: node
   linkType: hard
 
@@ -13971,7 +13971,7 @@ __metadata:
   resolution: "juguetear-web@workspace:."
   dependencies:
     "@headlessui/react": ^1.7.17
-    "@portabletext/react": ^3.0.11
+    "@portabletext/react": ^3.2.4
     "@sanity/image-url": ^1.0.2
     "@sanity/vision": ^3.20.1
     "@storybook/addon-a11y": ^7.5.3
