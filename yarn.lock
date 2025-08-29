@@ -4226,6 +4226,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sanity/image-url@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@sanity/image-url@npm:1.2.0"
+  checksum: 02e5a18beac09bd7102cd2acf49bf9f113a2e83e090b7d28d97eb8c2455ddb6612554f504f8459b4f9591f14940375cfde495cdea4fa84a40bc1d5acdbc59277
+  languageName: node
+  linkType: hard
+
 "@sanity/import@npm:3.20.1":
   version: 3.20.1
   resolution: "@sanity/import@npm:3.20.1"
@@ -13972,7 +13979,7 @@ __metadata:
   dependencies:
     "@headlessui/react": ^1.7.17
     "@portabletext/react": ^3.0.11
-    "@sanity/image-url": ^1.0.2
+    "@sanity/image-url": ^1.2.0
     "@sanity/vision": ^3.20.1
     "@storybook/addon-a11y": ^7.5.3
     "@storybook/addon-actions": ^7.5.3
