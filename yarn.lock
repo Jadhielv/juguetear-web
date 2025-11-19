@@ -6434,14 +6434,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:^5.1.32":
-  version: 5.1.32
-  resolution: "@types/styled-components@npm:5.1.32"
+"@types/styled-components@npm:^5.1.36":
+  version: 5.1.36
+  resolution: "@types/styled-components@npm:5.1.36"
   dependencies:
     "@types/hoist-non-react-statics": "*"
     "@types/react": "*"
-    csstype: ^3.0.2
-  checksum: c08909348aed553a710809c55c0cd0b26b7f0e364c99c5b21c7eca66cf8446bb4a57fff7ad0484646affa692acc181ff51061c9cd7b26bab468960c29eae1901
+    csstype: ^3.2.2
+  checksum: 5938ba298bc831d8ef30bec10fb3d30b9da9efc01f7cdaeb198f819ca4c579ac656e831d6d8f5b6c2572401fce18962078de16c49c94f1a6304d859e63352abb
   languageName: node
   linkType: hard
 
@@ -9153,6 +9153,13 @@ __metadata:
   version: 3.1.2
   resolution: "csstype@npm:3.1.2"
   checksum: e1a52e6c25c1314d6beef5168da704ab29c5186b877c07d822bd0806717d9a265e8493a2e35ca7e68d0f5d472d43fac1cdce70fd79fd0853dff81f3028d857b5
+  languageName: node
+  linkType: hard
+
+"csstype@npm:^3.2.2":
+  version: 3.2.3
+  resolution: "csstype@npm:3.2.3"
+  checksum: cb882521b3398958a1ce6ca98c011aec0bde1c77ecaf8a1dd4db3b112a189939beae3b1308243b2fe50fc27eb3edeb0f73a5a4d91d928765dc6d5ecc7bda92ee
   languageName: node
   linkType: hard
 
@@ -13990,7 +13997,7 @@ __metadata:
     "@types/node": ^20.9.4
     "@types/react": ^18.2.38
     "@types/react-dom": ^18.2.17
-    "@types/styled-components": ^5.1.32
+    "@types/styled-components": ^5.1.36
     "@typescript-eslint/eslint-plugin": ^6.12.0
     "@typescript-eslint/parser": ^6.12.0
     autoprefixer: ^10.4.16
