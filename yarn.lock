@@ -14009,7 +14009,7 @@ __metadata:
     next: ^14.0.3
     next-sanity: ^6.0.5
     postcss: ^8.4.31
-    prettier: ^3.1.0
+    prettier: ^3.9.6
     prettier-plugin-tailwindcss: ^0.5.7
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -16157,12 +16157,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "prettier@npm:3.1.0"
+"prettier@npm:^3.9.6":
+  version: 3.9.6
+  resolution: "prettier@npm:3.9.6"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 44b556bd56f74d7410974fbb2418bb4e53a894d3e7b42f6f87779f69f27a6c272fa7fc27cec0118cd11730ef3246478052e002cbd87e9a253f9cd04a56aa7d9b
+  checksum: 3fb6a3b6462b05afb825697a3fdcdd9bd1480c11d10d655b7ddbcaf2560beb695caffbe155b5020466005aa06bff74a61ba9c16e602bff849331b62f5db26cdf
   languageName: node
   linkType: hard
 
